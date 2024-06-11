@@ -1,0 +1,6 @@
+pip install pipenv
+pipenv install django
+pipenv shell
+django-admin startproject storefront
+python manage.py startapp playground
+from django.http import HttpResponse
